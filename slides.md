@@ -9,6 +9,9 @@ revealOptions:
 
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 1: Python Review | Course Introduction | Git Overview | IDE</span>
+<br /><br />
+##### [https://itse-1402.github.io/class1-slides](https://itse-1402.github.io/class1-slides)
+##### Short Link: [https://z3r0.tech/slides-1](https://z3r0.tech/slides-1)
 
 -----
 
