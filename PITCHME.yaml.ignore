@@ -1,0 +1,4 @@
+theme-override : assets/css/PITCHME.css
+theme : moon
+logo : assets/logo.png
+slide-number: true
