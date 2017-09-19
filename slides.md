@@ -293,7 +293,7 @@ via [Oliver Steele Blog](http://blog.osteele.com/2008/05/my-git-workflow/)
 
 ## Lab 1
 
-(https://z3r0.tech/1402-git)[https://z3r0.tech/1402-git]
+[https://z3r0.tech/1402-git](https://z3r0.tech/1402-git)
 
 Note:
 Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. 
