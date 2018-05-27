@@ -11,7 +11,7 @@ revealOptions:
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 1: Course Introduction | Git Overview | IDE</span>
 <br /><br />
 ##### [https://itse-1402.github.io/class1-slides](https://itse-1402.github.io/class1-slides)
-##### Short Link: [https://z3r0.tech/slides-1](https://z3r0.tech/slides-1)
+##### Short Link: [http://coder.run/1402-class1](http://coder.run/1402-class1)
 
 -----
 
@@ -26,6 +26,7 @@ revealOptions:
 Philip Ulrich
 
 [philip.ulrich@austincc.edu](mailto:philip.ulrich@austincc.edu)
+
 [https://www.telegram.me/PhilipUlrich](https://www.telegram.me/PhilipUlrich)
 
 Note:
@@ -33,11 +34,11 @@ Education:
 - BS, Information Technology; Minor in Computer Science
 
 Occupation: 
-- Windows Administrator @ Rackspace
+- Cloud Engineer @ Rackspace
 
 Experience: 
-- Programming as a hobbyist for over 8 years using a mixture of Bash, Java, PHP, Powershell, Python, Swift, VB Basic, and a little bit of Javascript.
-- Currently am a developer on multiple internal tooling projects at Rackspace.
+- Programming as a hobbyist for over 9 years using a mixture of Bash, Java, PHP, Powershell, Python, Swift, VB Basic, and a little bit of Javascript.
+- Currently a developer on multiple internal tooling projects at Rackspace.
 
 +++++
 
@@ -81,7 +82,7 @@ Login: You can either use your existing GitHub username or a new one. If you are
 #### GitHub
 <br />
 Purpose:
-- Code repository for the class. Class files will be cloned from here into your workspaces in Cloud 9. 
+- Code repository for the class. Class files will be cloned from here into your workspaces in Cloud9. 
 - You will treat assignments/projects as if they were projects you are maintaining on GitHub. All assignments and projects will be submitted via GitHub.
 
 NOTE: Any material assigned/turned in is private by default. Any repos you make also can be private as well. Personal GitHub accounts are okay for use in this course. 
@@ -89,42 +90,108 @@ NOTE: Any material assigned/turned in is private by default. Any repos you make 
 +++++
 
 #### Cloud9 IDE
-<br /><br />
-Website: https://c9.io
-<br /><br />
-Login: 
-- You will sign up for this service under an invite sent to your email. No CC is required (these are "student" accounts).
-- Once completed, you have access to the class workspace and primary IDE we will be utilizing. 
-
-+++++
-
-#### Cloud9 IDE
 <br />
+<small>Website: https://aws.amazon.com/cloud9/</small>
+<br /><br />
 Purpose:
+<small>
+
 - Primary working environment for the class. We will create a workspace for each class session.
 - Class files will be cloned from GitHub to a C9 workspace. From here, you will work your assignments and push changes to your GH repo. Assignments will be graded based on repository contents.
 
+</small>
+Login: 
+<small>
+
+- You will need to sign up for an Amazon account. This can be done following the steps here: https://aws.amazon.com/premiumsupport/knowledge-center/educate-starter-account/
+
+</small>
+
 +++++
 
-#### Preparing Cloud9
+#### AWS Billing
+<br />
+<small>You should be well aware that this account can and will charge you money if you are not careful. We will be going over and setting up tools to help ensure this will not happen. Below is how this is done:</small>
+<small>
 
-- Log in to your Cloud9 account and go to the settings area.
-- Click on Connected Services and connect your GitHub account. 
-- Go back to your dashboard and create your 1 alloted private repo with the name "class-workspace".
-- For team, choose "Don't set a team for this workspace"
-- Choose "Blank" for your workspace and leave everything else default.
-- Click "Create Workspace"
+- Free Tier - All of the resources we will be using are free tier eligible. If used properly, they also should only cost you a couple bucks even if you were billed.
+- AWS Credits - As you are a student at ACC, you have the ability to get credits. I am working with ACC to become a member institution, but at this time you will get $40 in credits.
+- Billing Notification - AWS provides multiple ways to monitor billing. The two ways we will use are Free Tier Usage Alerts and Billing Alerts.
+
+</small>
+
+NOTE: AWS Credits are valid for specific services only. If you plan on using them, please be aware of them.
+
++++++
+
+#### AWS Billing - CYA
+<br />
+<small><b>Free Tier Usage Alerts</b></small>
+<small>
+
+- Log into AWS Console
+- Click on your name in the top right, click "My Billing Dashboard"
+- Check "Receive Free Tier Usage Alerts"
+- If you need them sent to an email other than the one on your account, enter it into the box 
+- Click "Save Preferences"
+
+</small>
+
++++++
+
+#### AWS Billing - CYA
+<br />
+<small><b>Billing Alerts</b></small>
+<small>
+
+- Log into AWS Console
+- Click on your name in the top right, click "My Billing Dashboard"
+- Receive Billing Alerts
+- Click "Save Preferences"
+- Click "Manage Billing Alerts"
+- Click "Create a billing alarm"
+- Set "When my total AWS charges for the month exceed" to "0"
+- Click "New list"
+- Enter your email in the box that appears and click "Create Alarm"
+
+</small>
+
++++++
+
+#### Creating Cloud9 Environment
+<small>
+
+- Log into AWS Console
+- Ensure you are in the proper region in the top right corner (typically N. Virginia - us-east-1)
+- Click "Services" on the top left and type "Cloud9" and click on link
+- Click "Create Environment" on the top right
+- Give it a name (e.g. workspace)
+- Leave default settings, click "Next step"
+- Click "Create Environment"
+- Click "AWS Cloud9" at the top left and click "Preferences"
+- Go to "Python Support" and change "Python Version" to Python 3
+- [optional] Go to "Themes" and change it to a less hideous color scheme
+- [optional] Go to "Experimental" and enable auto save on focus change. 
+
+</small>
 
 +++++
 
 ##### Importing Your First Repo
+<small>
 
-- First grab the assignment from the following link: [https://z3r0.tech/1402-example](https://z3r0.tech/1402-example)
-- With your workspace open, clone the repository into your workspace directory
+- In the terminal at the bottom, run the following command to generate a ssh key: `ssh-keygen` and press enter 3 times
+- Then run the following command to get your public signature: `cat ~/.ssh/id_rsa.pub`
+- Copy this and past it into your keys on GitHub (Settings -> SSH and GPG keys -> New SSH key)
+- Grab the assignment from the following link: [https://coder.run/1402-example](https://coder.run/1402-example)
+- With your workspace open, clone the repository into your workspace directory with the terminal at the bottom
     - Hint: `git clone git@github.com:ITSE-1402/example-repo-myusername`
 - Open the folder "example-repo-myusername" on the left side and open the "README.md" file.
 - Click "Preview" in the menu bar then "Live Preview File (README.md)"
 - Follow the instructions. 
+
+</small>
+
 
 -----
 
@@ -134,7 +201,7 @@ Purpose:
 
 [https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
 
-Short Link: [https://z3r0.tech/1402-syllabus](https://z3r0.tech/1402-syllabus)
+Short Link: [https://coder.run/1402-syllabus](https://coder.run/1402-syllabus)
 
 -----
 
@@ -157,7 +224,7 @@ Short Link: [https://z3r0.tech/1402-syllabus](https://z3r0.tech/1402-syllabus)
 
 ![Image](./assets/version_control.jpg)
 <br />
-via [Geek and Poke](http://geek-and-poke.com/)
+<small>via [Geek and Poke](http://geek-and-poke.com/)</small>
 
 +++++
 
@@ -182,7 +249,7 @@ via [Geek and Poke](http://geek-and-poke.com/)
 
 ![Image](./assets/version_control2.jpg)
 <br />
-via [Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control)
+<small>via [Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control)</small>
 
 -----
 
@@ -287,13 +354,13 @@ GitHub is a web-based Git or version control repository and Internet hosting ser
 
 ![Image](./assets/git_transport.png)
 <br />
-via [Oliver Steele Blog](http://blog.osteele.com/2008/05/my-git-workflow/)
+<small>via [Oliver Steele Blog](http://blog.osteele.com/2008/05/my-git-workflow/)</small>
 
 -----
 
 ## Lab 1
 
-[https://z3r0.tech/1402-git](https://z3r0.tech/1402-git)
+[https://coder.run/1402-git](https://coder.run/1402-git)
 
 Note:
 Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. 
@@ -330,7 +397,7 @@ Branches are typically used for different features or versions of the content be
 
 ![image](./assets/git_workflow.png)
 <br />
-via [Leanpub](https://leanpub.com/git-flow/read)
+<small>via [Leanpub](https://leanpub.com/git-flow/read)</small>
 
 Note:
 The master branch is special and is regarded as the current state of the repository.
@@ -391,4 +458,4 @@ Example:
 
 All extra credit should be submitted to the following repo:
 
-[https://z3r0.tech/1402-ec](https://z3r0.tech/1402-ec)
+[https://coder.run/1402-ec](https://coder.run/1402-ec)
