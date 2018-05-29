@@ -61,6 +61,16 @@ Any and all of these are optional. At the very least, just tell us your name.
 
 -----
 
+## Syllabus
+
++++++
+
+[https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
+
+Short Link: [https://coder.run/1402-syllabus](https://coder.run/1402-syllabus)
+
+-----
+
 ## Course Resources
 
 +++++
@@ -191,17 +201,6 @@ NOTE: AWS Credits are valid for specific services only. If you plan on using the
 - Follow the instructions. 
 
 </small>
-
-
------
-
-## Syllabus
-
-+++++
-
-[https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
-
-Short Link: [https://coder.run/1402-syllabus](https://coder.run/1402-syllabus)
 
 -----
 
@@ -363,7 +362,7 @@ GitHub is a web-based Git or version control repository and Internet hosting ser
 [https://coder.run/1402-git](https://coder.run/1402-git)
 
 Note:
-Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. 
+Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. To view lab, open file in C9 and click "Preview" -> "Preview File 'lab1.md'". 
 
 -----
 
@@ -376,6 +375,9 @@ Versioning isn’t always smooth sailing...
 ![Image](./assets/merge_conflict.png)
 <br />
 It also isn’t always linear.
+
+Note:
+We'll now be hittng some more intermediate concepts that you may end up seeing/encountering when working in git.
 
 +++++
 
