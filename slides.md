@@ -11,7 +11,7 @@ revealOptions:
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 1: Course Introduction | Git Overview | IDE</span>
 <br /><br />
 ##### [https://itse-1402.github.io/class1-slides](https://itse-1402.github.io/class1-slides)
-##### Short Link: [http://coder.run/1402-class1](http://coder.run/1402-class1)
+##### Short Link: [https://bit.ly/itse1402-class1](https://bit.ly/itse1402-class1)
 
 -----
 
@@ -67,7 +67,7 @@ Any and all of these are optional. At the very least, just tell us your name.
 
 [https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
 
-Short Link: [https://coder.run/1402-syllabus](https://coder.run/1402-syllabus)
+Short Link: [https://bit.ly/itse1402-syllabus](https://bit.ly/itse1402-syllabus)
 
 -----
 
@@ -113,56 +113,7 @@ Purpose:
 Login: 
 <small>
 
-- You will need to sign up for an Amazon account. This can be done following the steps here: https://aws.amazon.com/premiumsupport/knowledge-center/educate-starter-account/
-
-</small>
-
-+++++
-
-#### AWS Billing
-<br />
-<small>You should be well aware that this account can and will charge you money if you are not careful. We will be going over and setting up tools to help ensure this will not happen. Below is how this is done:</small>
-<small>
-
-- Free Tier - All of the resources we will be using are free tier eligible. If used properly, they also should only cost you a couple bucks even if you were billed.
-- AWS Credits - As you are a student at ACC, you have the ability to get credits. I am working with ACC to become a member institution, but at this time you will get $40 in credits.
-- Billing Notification - AWS provides multiple ways to monitor billing. The two ways we will use are Free Tier Usage Alerts and Billing Alerts.
-
-</small>
-
-NOTE: AWS Credits are valid for specific services only. If you plan on using them, please be aware of them.
-
-+++++
-
-#### AWS Billing - CYA
-<br />
-<small><b>Free Tier Usage Alerts</b></small>
-<small>
-
-- Log into AWS Console
-- Click on your name in the top right, click "My Billing Dashboard"
-- Check "Receive Free Tier Usage Alerts"
-- If you need them sent to an email other than the one on your account, enter it into the box 
-- Click "Save Preferences"
-
-</small>
-
-+++++
-
-#### AWS Billing - CYA
-<br />
-<small><b>Billing Alerts</b></small>
-<small>
-
-- Log into AWS Console
-- Click on your name in the top right, click "My Billing Dashboard"
-- Receive Billing Alerts
-- Click "Save Preferences"
-- Click "Manage Billing Alerts"
-- Click "Create a billing alarm"
-- Set "When my total AWS charges for the month exceed" to "0"
-- Click "New list"
-- Enter your email in the box that appears and click "Create Alarm"
+This login will be provided to you on the first day.
 
 </small>
 
@@ -174,10 +125,7 @@ NOTE: AWS Credits are valid for specific services only. If you plan on using the
 - Log into AWS Console
 - Ensure you are in the proper region in the top right corner (typically N. Virginia - us-east-1)
 - Click "Services" on the top left and type "Cloud9" and click on link
-- Click "Create Environment" on the top right
-- Give it a name (e.g. workspace)
-- Leave default settings, click "Next step"
-- Click "Create Environment"
+- Click "Shared with you" and open your workspace
 - Click "AWS Cloud9" at the top left and click "Preferences"
 - Go to "Python Support" and change "Python Version" to Python 3
 - [optional] Go to "Themes" and change it to a less hideous color scheme
@@ -193,7 +141,7 @@ NOTE: AWS Credits are valid for specific services only. If you plan on using the
 - In the terminal at the bottom, run the following command to generate a ssh key: `ssh-keygen` and press enter 3 times
 - Then run the following command to get your public signature: `cat ~/.ssh/id_rsa.pub`
 - Copy this and past it into your keys on GitHub (Settings -> SSH and GPG keys -> New SSH key)
-- Grab the assignment from the following link: [https://coder.run/1402-example](https://coder.run/1402-example)
+- Grab the assignment from the following link: [https://bit.ly/1402-example](https://bit.ly/1402-example)
 - With your workspace open, clone the repository into your workspace directory with the terminal at the bottom
     - Hint: `git clone git@github.com:ITSE-1402/example-repo-myusername`
 - Open the folder "example-repo-myusername" on the left side and open the "README.md" file.
@@ -223,7 +171,7 @@ NOTE: AWS Credits are valid for specific services only. If you plan on using the
 
 ![Image](./assets/version_control.jpg)
 <br />
-<small>via [Geek and Poke](http://geek-and-poke.com/)</small>
+<small>via [Geek and Poke](https://geek-and-poke.com/)</small>
 
 +++++
 
@@ -266,7 +214,7 @@ Git is a free and open source distributed version control system designed to han
 
 - Git is available for all the major OSes
   - Linux, Windows, OS X
-- http://git-scm.com/downloads
+- https://git-scm.com/downloads
 
 * git will already be installed in our workspaces
 
@@ -353,13 +301,13 @@ GitHub is a web-based Git or version control repository and Internet hosting ser
 
 ![Image](./assets/git_transport.png)
 <br />
-<small>via [Oliver Steele Blog](http://blog.osteele.com/2008/05/my-git-workflow/)</small>
+<small>via [Oliver Steele Blog](https://blog.osteele.com/2008/05/my-git-workflow/)</small>
 
 -----
 
 ## Lab 1
 
-[https://coder.run/1402-git](https://coder.run/1402-git)
+[https://bit.ly/1402-git](https://bit.ly/1402-git)
 
 Note:
 Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. To view lab, open file in C9 and click "Preview" -> "Preview File 'lab1.md'". 
@@ -460,4 +408,4 @@ Example:
 
 All extra credit should be submitted to the following repo:
 
-[https://coder.run/1402-ec](https://coder.run/1402-ec)
+[https://bit.ly/1402-ec](https://bit.ly/1402-ec)
