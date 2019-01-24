@@ -11,7 +11,7 @@ revealOptions:
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 1: Course Introduction | Git Overview | IDE</span>
 <br /><br />
 ##### [https://itse-1402.github.io/class1-slides](https://itse-1402.github.io/class1-slides)
-##### Short Link: [https://bit.ly/itse1402-class1](https://bit.ly/itse1402-class1)
+##### Short Link: [https://bit.ly/1402-class1](https://bit.ly/1402-class1)
 
 -----
 
@@ -67,7 +67,7 @@ Any and all of these are optional. At the very least, just tell us your name.
 
 [https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
 
-Short Link: [https://bit.ly/itse1402-syllabus](https://bit.ly/itse1402-syllabus)
+Short Link: [https://bit.ly/1402-syllabus](https://bit.ly/1402-syllabus)
 
 -----
 
