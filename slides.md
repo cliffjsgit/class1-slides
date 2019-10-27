@@ -21,24 +21,20 @@ revealOptions:
 
 ### Instructor
 
-![Image](./assets/philip.jpg)
 
-Philip Ulrich
+Clifford Spinac
 
-[philip.ulrich@austincc.edu](mailto:philip.ulrich@austincc.edu)
+[clifford.spinac@austincc.edu](mailto:clifford.spinac@austincc.edu)
 
-[https://www.telegram.me/PhilipUlrich](https://www.telegram.me/PhilipUlrich)
 
 Note:
 Education:
-- BS, Information Technology; Minor in Computer Science
+- BE, Chemical Engineering; Minor in Computer Science
+- MS, Computer Engineering
 
 Occupation: 
-- Cloud Engineer @ Rackspace
+- Enterprise Software Consultant and Instructor @ IBM - Retired
 
-Experience: 
-- Programming as a hobbyist for over 9 years using a mixture of Bash, Java, PHP, Powershell, Python, Swift, VB Basic, and a little bit of Javascript.
-- Currently a developer on multiple internal tooling projects at Rackspace.
 
 +++++
 
@@ -65,9 +61,6 @@ Any and all of these are optional. At the very least, just tell us your name.
 
 +++++
 
-[https://itse-1402.github.io/syllabus/](https://itse-1402.github.io/syllabus/)
-
-Short Link: [https://bit.ly/1402-syllabus](https://bit.ly/1402-syllabus)
 
 -----
 
@@ -77,7 +70,7 @@ Short Link: [https://bit.ly/1402-syllabus](https://bit.ly/1402-syllabus)
 
 ### Course Resources
 - GitHub
-- Cloud9 IDE
+- PythonAnywhere.com IDE
 
 +++++
 
@@ -92,61 +85,32 @@ Login: You can either use your existing GitHub username or a new one. If you are
 #### GitHub
 <br />
 Purpose:
-- Code repository for the class. Class files will be cloned from here into your workspaces in Cloud9. 
-- You will treat assignments/projects as if they were projects you are maintaining on GitHub. All assignments and projects will be submitted via GitHub.
-
-NOTE: Any material assigned/turned in is private by default. Any repos you make also can be private as well. Personal GitHub accounts are okay for use in this course. 
+- Code repository for the class. 
+ 
 
 +++++
 
-#### Cloud9 IDE
+#### PythonAnywhere IDE
 <br />
-<small>Website: https://aws.amazon.com/cloud9/</small>
+<small>Website: https://www.pythonanywhere.com</small>
 <br /><br />
 Purpose:
 <small>
-
-- Primary working environment for the class. We will create a workspace for each class session.
-- Class files will be cloned from GitHub to a C9 workspace. From here, you will work your assignments and push changes to your GH repo. Assignments will be graded based on repository contents.
-
+Python files will be shared from teacher's account to student's account
 </small>
 Login: 
-<small>
-
-This login will be provided to you on the first day.
+Student creates a Free Beginners / Education account on PythonAnywhere 
 
 </small>
 
 +++++
 
-#### Creating Cloud9 Environment
-<small>
-
-- Log into AWS Console
-- Ensure you are in the proper region in the top right corner (typically N. Virginia - us-east-1)
-- Click "Services" on the top left and type "Cloud9" and click on link
-- Click "Shared with you" and open your workspace
-- Click "AWS Cloud9" at the top left and click "Preferences"
-- Go to "Python Support" and change "Python Version" to Python 3
-- [optional] Go to "Themes" and change it to a less hideous color scheme
-- [optional] Go to "Experimental" and enable auto save on focus change. 
-
-</small>
-
 +++++
 
-##### Importing Your First Repo
+##### Git Lab
 <small>
+Use Git to learn about Code Management / Repositories 
 
-- In the terminal at the bottom, run the following command to generate a ssh key: `ssh-keygen` and press enter 3 times
-- Then run the following command to get your public signature: `cat ~/.ssh/id_rsa.pub`
-- Copy this and past it into your keys on GitHub (Settings -> SSH and GPG keys -> New SSH key)
-- Grab the assignment from the following link: [https://bit.ly/1402-example](https://bit.ly/1402-example)
-- With your workspace open, clone the repository into your workspace directory with the terminal at the bottom
-    - Hint: `git clone git@github.com:ITSE-1402/example-repo-myusername`
-- Open the folder "example-repo-myusername" on the left side and open the "README.md" file.
-- Click "Preview" in the menu bar then "Live Preview File (README.md)"
-- Follow the instructions. 
 
 </small>
 
@@ -406,6 +370,5 @@ Example:
 
 -----
 
-All extra credit should be submitted to the following repo:
+All extra credit should be copied to teacher throush an Extra-Credit Directory
 
-[https://bit.ly/1402-ec](https://bit.ly/1402-ec)
