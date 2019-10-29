@@ -10,7 +10,7 @@ revealOptions:
 ### ITSE-1402 Intermediate Python
 <span style="font-family:Helvetica Neue; font-weight:bold; color:#e49436">Class 1: Course Introduction | Git Overview | IDE</span>
 <br /><br />
-##### [https://github.com/cliffjsgit/class1-slides](https://github.com/cliffjsgit/git-tutorials)
+##### [https://github.com/cliffjsgit/class1-slides](https://github.com/cliffjsgit/class1-slides)
 
 
 -----
