@@ -271,10 +271,10 @@ GitHub is a web-based Git or version control repository and Internet hosting ser
 
 ## Lab 1
 
-[https://bit.ly/1402-git](https://bit.ly/1402-git)
+[https://github.com/cliffjsgit/class1-slides](https://github.com/cliffjsgit/class1-slides)
 
 Note:
-Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. To view lab, open file in C9 and click "Preview" -> "Preview File 'lab1.md'". 
+Create this repo and clone it into your workspace. All 3 labs are in this repo. We will just be completing Lab 1 for now. To view lab, open file in Dashboard. 
 
 -----
 
