@@ -1,9 +1,7 @@
 ### ITSE-1042 Intermediate Python
 
-1. Number of Hours: 39 hours (4/2/2020 - 5/19/2020)
-
-    Tues, Thurs @ 06:00 PM - 09:00 PM
-    
+1. Number of Hours: 39 hours (4/2/2020 - 5/19/2020)   
+    Tues, Thurs @ 06:00 PM - 09:00 PM    
     Instructor Lead Online Lecture & Lab
 
 2. Course Description:
@@ -15,8 +13,9 @@
     experience you need to apply the Python programming language in real world scenarios upon completion.
 
 3. Required Text Book:
-- Think Python 2e: How to Think Like a Computer Scientist - 2nd Edition, Allen Downey.
-  Available for free via a PDF [eBook](http://greenteapress.com/thinkpython2/thinkpython2.pdf) or 
+- Think Python 2e: How to Think Like a Computer Scientist - 2nd Edition, Allen Downey.   
+  Available for free via a PDF [eBook](http://greenteapress.com/thinkpython2/thinkpython2.pdf)   
+  or    
   HTML [online](http://greenteapress.com/thinkpython2/html/index.html).
 
 4. Prerequisites:
