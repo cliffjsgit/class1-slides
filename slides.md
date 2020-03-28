@@ -76,17 +76,12 @@ Any and all of these are optional. At the very least, just tell us your name.
 
 #### GitHub
 <br />
-Website: [https://github.com](https://github.com)
+<small>Website: https://github.com</small>
 <br /><br />
-Login: You can either use your existing GitHub username or a new one. If you are using a new one, please go through the account sign up process as you normally would.
-
-+++++
-
-#### GitHub
-<br />
 Purpose:
-- Code repository for the class. 
- 
+<small>
+- Code repository for the class.    
+</small>
 
 +++++
 
