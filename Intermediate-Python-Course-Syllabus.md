@@ -14,8 +14,8 @@
 
 3. Required Text Book:
 - Think Python 2e: How to Think Like a Computer Scientist - 2nd Edition, Allen Downey.   
-  Available for free via a PDF [eBook](http://greenteapress.com/thinkpython2/thinkpython2.pdf)   
-  or HTML [online](http://greenteapress.com/thinkpython2/html/index.html).
+  Available for free via a PDF [eBook](http://greenteapress.com/thinkpython2/thinkpython2.pdf) or HTML 
+  [online](http://greenteapress.com/thinkpython2/html/index.html).
 
 4. Prerequisites:
   - ITSE-2079 Introduction to Python course, or novice knowledge of Python and OOP languages
