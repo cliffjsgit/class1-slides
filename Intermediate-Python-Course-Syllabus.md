@@ -1,9 +1,9 @@
 ### ITSE-1042 Intermediate Python
 
-1. Number of Hours: 39 hours (4/2/2020 - 5/19/2020)   
+1. Number of Hours: 39 hours (3/29/2022 - 5/12/2022)   
     Tues, Thurs @ 06:00 PM - 09:00 PM    
     Instructor Lead Online Lecture & Lab
-
+3/
 2. Course Description:
 
     Utilizing Python 3, Intermediate Python is a project-based class in which you will learn the ins and 
